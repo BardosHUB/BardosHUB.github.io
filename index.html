@@ -9,15 +9,22 @@
 <body>
     <form action="https://formspree.io/bartlomiej.gardolinski@gmail.com" method="POST">
         <label for="name">Imie:</label><br />
-        <input type="text" name="name">
-        <label for="forname">Nazwisko:</label><br />
-        <input type="text" name="forname">
+        <input type="text" name="name" id="name">
+        <label for="nazwisko">Nazwisko:</label><br />
+        <input type="text" name="nazwisko" id="nazwisko">
         <label for="email">Email:</label><br />
         <input type="email" name="_replyto">
         <input type="submit" value="Send">
     </form>
     <form action="form.php" method="post">
     </form>
+    <form>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+    </form>
+
+
 </body>
 
 </html>
